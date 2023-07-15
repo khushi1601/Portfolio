@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <style>
+    /* CSS styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #7f58a6; /* Lilac color */
+        text-align: center;
+      }
+      
+    
+    header {
+            background-color: #7f58a6; /* Lilac color */
+    
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    
+  
+      margin: 0;
+    }
+    .bubble-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .bubble {
+      position: relative;
+      display: inline-block;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+    }
+   
+    .bubble.left {
+      
+      background-color: #f1f1f1;
+      left:"5rem"
+      
+    }
+    .bubble.left::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 100%;
+      
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent transparent #cbe9f5;
+    }
+    
+    .bubble.right {
+      
+      background-color: #1e308b;
+      align-self: flex-end;
+      left:"5rem"
+    }
+
+    .bubble.right::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+     
+      border-color: transparent #1e308b transparent transparent;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Khushi Srivastava</h1>
+    <nav>
+      
+    </nav>
+  </header>
+    <h2>About Me</h2>
+    <h3>Welcome to my portfolio!</h3>
+    <p> I was born and brought up in Uttar pradesh,India and I am currently pursuing 
+      B.tech (CSE) from Kalinga institute of industrial technology Bhubaneshwar (2020-2024)</p>
+      <p>Here are the set of skills I pursue</p>
+      <div class="bubble-container">
+      <div class="bubble left" >
+        Programming languages I know?
+     
+      </div>
+      </div>
+      <div class="bubble-container">
+      <div class="bubble right" >
+        python,c++,JavaScript,
+        SQL
+      </div>
+    </div>
+    <div class="bubble-container">
+      <div class="bubble left" >
+        Frameworks I have worked on?
+       
+      </div>
+    </div>
+      <div class="bubble-container">
+      <div class="bubble right"  >
+        NumPy,Pandas,OpenCV
+      </div>
+    </div>
+    <div class="bubble-container">
+      <div class="bubble left" >
+        Technologies or tools I have used?
+       
+      </div>
+    </div>
+      <div class="bubble-container">
+      <div class="bubble right"  >
+        LaTeX,HTML,CSS,AWS,Next.js,Stripe
+      </div>
+    </div>
+    <div class="bubble-container">
+      <div class="bubble left"  >
+       "Not so technical" qualities I pursue 
+       
+      </div>
+    </div>
+      <div class="bubble-container">
+      <div class="bubble right"  >
+        MS Office,technical writing,mathematics
+      </div>
+    </div>
+    <div class="bubble-container">
+      <div class="bubble left"  >
+       Experience?
+      </div>
+    </div>
+      <div class="bubble-container">
+      <div class="bubble right"  >
+       worked as a full time developer 
+      </div>
+    </div>
+    <div class="bubble-container">
+      <div class="bubble left"  >
+       Certification?
+      </div>
+    </div>
+      <div class="bubble-container">
+      <div class="bubble right"  >
+       Do click on the gif below to know that and a bit more:)
+      </div>
+    </div>
+    <a href=https://drive.google.com/file/d/148vnmEQsYOAoqCR5woqjC3SaqhO7p7Jn/view>
+   
+    <img src="cv.gif" width="200" height="200" alt="Clickable Image" >
+</a>
+</body>
+</html>
